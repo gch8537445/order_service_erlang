@@ -1,0 +1,6 @@
+-name order_service_erlang@127.0.0.1
+-setcookie order_service_secret_cookie
+
++K true
++A 100
++P 500000

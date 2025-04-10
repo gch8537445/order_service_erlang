@@ -1,0 +1,21 @@
+{application, order_service_erlang, [
+    {description, "打车服务Erlang后端"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {mod, {order_service_erlang_app, []}},
+    {applications, [
+        kernel,
+        stdlib,
+        sasl,
+        cowboy,
+        jsx,
+        hackney,
+        eredis,
+        epgsql,
+        poolboy
+    ]},
+    {env, []},
+    {modules, []},
+    {licenses, ["Apache 2.0"]},
+    {links, []}
+]}.
